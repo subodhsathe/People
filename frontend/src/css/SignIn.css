@@ -1,0 +1,92 @@
+.signIn{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzItMDM3LWMta3ZoaDA4bXAuanBn.jpg);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    background-color: #ffd6adb8;
+    border: 1px solid #817979;
+    border-radius: 1px;
+    padding: 30px;
+}
+
+.loginForm2{
+    background-color: #ffffff4d;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(129, 121, 121);
+    border-radius: 1px;
+}
+
+#login-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.appNameLogin {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 50px; */
+    margin-top: 0px;
+    color: #4f4ff5;
+    font-size: 60px;
+}
+
+.headParaLogin{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+    font-size: 30px;
+}
+
+input{
+    padding: 5px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mainInputsLogin{
+    border-radius: 14px;
+    background-color: #94b1ff42;
+    width: 80%;
+}
+
+#login-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+input#login-btn {
+    background-color: #7373ff;
+    border-radius: 11px;
+}
+
+.loginForm{
+    padding-bottom: 50px;
+}

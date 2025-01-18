@@ -1,0 +1,59 @@
+.createPost{
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.main-div{
+    border-top: 1px solid rgb(173, 173, 173);
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    display: contents;
+}
+
+#post-btn{
+    border: none;
+    color: #339ce3;
+    background: none;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.details{
+    border-top: 1px solid rgb(173, 173, 173);
+}
+
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+#duration-select{
+    width: 100px;
+    height: 30px;
+    background-color: #94b1ff42;
+    border-radius: 14px;
+    font-size: 17px;
+}
+
+#heading{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+
+#head-para{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}

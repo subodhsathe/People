@@ -1,0 +1,41 @@
+.search-page {
+    padding: 10px;
+}
+
+.search-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #7ccaff;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0; /* Remove gaps between grid items */
+    margin: 0; /* Ensure no external spacing */
+    padding: 0; /* Ensure no padding inside the grid */
+}
+
+.post-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0; 
+    padding: 0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
