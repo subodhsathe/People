@@ -94,16 +94,16 @@ export default function SignUp() {
                     <img className='signUpLogo' src={logo} alt="Logo" />
                     <h1 className='appName'>People</h1>
                     <p className='headPara'>
-                        find
+                        find PEOPLE and
                     </p>
                     <p className='headPara'>
-                        PEOPLE
+                        share your creativity
                     </p>
                     <p className='headPara'>
-                        and make friends
+                        with friends through
                     </p>
                     <p className='headPara'>
-                        interact, love, connect..
+                        <b style={{fontFamily:"cursive"}}>AI Posts</b>
                     </p>
                     <div>
                         <input className='mainInputs' type="email" name="email" id='email' value={email} placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
@@ -130,7 +130,7 @@ export default function SignUp() {
                     <br />
                     <b>People &copy; 2025</b> <br /> <b>Contact: </b>subodhssathe@gmail.com
                     <br />
-                    a <b>Subodh Sachin Sathe</b> production
+                    a <b>Subodh Sachin Sathe</b> creation
                 </div>
             </div>
         </div>

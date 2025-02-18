@@ -58,16 +58,16 @@ const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
         <img className='signUpLogo' src={logo} alt="" />
         <h1 className='appNameLogin'>People</h1>
         <p className='headParaLogin'>
-            find
+            find PEOPLE and
         </p>
         <p className='headParaLogin'>
-            PEOPLE
+            share your creativity
         </p>
         <p className='headParaLogin'>
-            and make friends
+            with friends through
         </p>
         <p className='headParaLogin'>
-            interact, love, connect..
+            <b style={{fontFamily:"cursive"}}>AI Posts</b>
         </p>
         <div>
           <input className='mainInputsLogin' type="email" name="email" id='email' value={email} placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} />
@@ -90,9 +90,9 @@ const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
           <span style={{color:'blue', cursor:'pointer'}}>Sign Up</span>
         </Link>
         <br />
-        <b>People &copy; 2025</b> <br /> <b>Contact: </b>subodhssathe@gmail.com
+         <b>People &copy; 2025</b> <br /> <b>Contact: </b>subodhssathe@gmail.com
         <br />
-        a <b>Subodh Sachin Sathe</b> production
+        a <b>Subodh Sachin Sathe</b> creation
       </div>
     </div>
   </div>
